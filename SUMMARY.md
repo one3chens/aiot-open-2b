@@ -5,4 +5,5 @@
 * [设备信息获取](she_bei_xin_xi_huo_qu.md)
 * [账户对接](zhang_hu_dui_jie.md)
 * [设备入网](设备入网.md)
+* 设备属性上报
 
