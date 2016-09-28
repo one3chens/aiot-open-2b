@@ -15,3 +15,22 @@ AIOT开放账号对接有两种方案，一种是通过标准的OAuth2.0，将AI
 | API | 描述 | payload | header | response |
 | -- | -- | -- | -- | -- |
 | /open/account/access/get | 用户获取接入权限 | {"accountId":"xxx"} | {"Appid":"xxx","Appkey":"xxx"} | {"code":0(errorCode), "result":{"openId":"xxx","accessToken":"xxx","expires_in":xxx,"refreshToken":"xxx"} |
+
+> - payload: Https请求的payload，默认使用JSON格式
+> - header: Https请求的header
+> - accountId: 第三方应用用户的id
+> - Appid: 第三方应用appId
+> - Appkey: 第三方应用appKey
+> - openId: 为第三方应用创建的虚拟对接账号
+> - accessToken: 授权访问的token
+> - expires_in: accessToken的有效期，单位为秒
+> - refreshToken: 用于刷新accessToken
+> - errorCode: 返回错误码，0表示成功
+
+##刷新accessToken
+
+| API | 描述 | payload | header | response |
+| -- | -- | -- | -- | -- |
+| /open/account/access/refresh | 刷新权限 | {"openId":"xxx","refreshToken":"xxx"} | {"Appid":"xxx","Appkey":"xxx"} | {"code":0(errorCode), "result":{"openId":"xxx","accessToken":"xxx","expires_in":xxx,"refreshToken":"xxx" |
+
+当accessToken过期时，利用refreshToken和这个API，可以重新获取一对新的accessToken和refreshToken。
