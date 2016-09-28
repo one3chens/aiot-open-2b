@@ -7,7 +7,3 @@ AIOT开放API可供第三方应用查询设备基本信息，如设备id、设�
 | /open/device/query | 查询设备信息 | {"openId":"xxx","did":"xxx"} | {"Appid":"xxx","Appkey":"xxx","Openid":"xxx","Access-Token":"xxx"} | {"code":0|errorcode, "result":{"did":"value", "model":"value", "name":"value"}}} |
 | /open/device/query/user | 查询用户所有设备的信息 | {"openId":"xxx"} | {"Appid":"xxx","Appkey":"xxx","Openid":"xxx","Access-Token":"xxx"} | {"code":0|errorcode, "result":[{"did":"value", "model":"value", "name":"value"}{"did":"value", "model":"value", "name":"value"}]}} |
 
-> - startDate: 查询资源历史的起始日期
-> - endDate: 查询资源历史的结束日期
-> - startCount: 用于分页的开始数目
-> - endCount: 用于分页的结束数目
