@@ -5,7 +5,7 @@ AIOT通过心跳包时刻监听设备的在线离线状态，AIOT将设备的在
 
 | payload | header | 描述 |
 | -- | -- | -- |
-| {"did":"xxx","state":0-online/1-offline} | {"Appid":"xxx","Appkey":"xxx"} | 心跳推送 |
+| {"did":"xxx","state":0-online/1-offline} | {"Appid":"xxx","Appkey":"xxx"} | 在线/离线状态推送 |
 
 > - did: 设备id
 > - timeStamp: 心跳包的时间戳，单位为s
