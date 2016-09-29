@@ -8,7 +8,7 @@
    * [账户对接](account_transf.md)
 * [设备管理](device_manage.md)
    * [设备入网](设备入网.md)
-   * 设备在线离线
+   * [设备在线离线](device_online_offline.md)
    * [设备信息获取](she_bei_xin_xi_huo_qu.md)
    * [设备信息更改](device_info_update.md)
    * [设备信息推送](device_info_push.md)
