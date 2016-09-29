@@ -37,3 +37,7 @@
 | 86plug | load_voltage | uint32_t | -- | -- | -- | 负载电压，单位是毫伏 mV |
 | 86plug | load_power | uint32_t | -- | -- | -- | 负载功率，单位是瓦 W |
 | 86plug | cost_energy | float | -- | -- | -- | 消耗的电能 |
+
+##智能插座
+
+**model:lumi.plug.v1, lumi.plug.es1**
