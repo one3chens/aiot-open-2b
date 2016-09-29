@@ -4,7 +4,7 @@
 
 | payload | header | 描述 |
 | -- | -- | -- |
-| {"did":"xxx","data":{"mac": "value", "name": "name", "firmwareVersion": "value", "state":"value", "model":"value", "chipVersion":"value","longitude":"value", "latitude":"value"}} | {"Appid":"xxx","Appkey":"xxx"} | 心跳推送 |
+| {"**did**":"xxx","**data**":{"mac": "value", "name": "name", "firmwareVersion": "value", "state":"value", "model":"value", "chipVersion":"value","longitude":"value", "latitude":"value"}} | {"Appid":"xxx","Appkey":"xxx"} | 心跳推送 |
 
 > - did: 设备id
 > - timeStamp: 心跳包的时间戳，单位为s
