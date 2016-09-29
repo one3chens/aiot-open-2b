@@ -4,7 +4,7 @@
 
 ##网关300
 
-model: lumi.gateway.v3
+**model: lumi.gateway.v3**
 
 | 功能模块 | 资源 | 值类型 | 取值范围 | 最大值 | 最小值 | 描述 |
 | -- | -- | -- | -- | -- | -- | -- |
@@ -28,3 +28,5 @@ model: lumi.gateway.v3
 | system_volume | system_volume | uint8_t | -- | 0 | 100 | 系统音量 |
 
 ##86暗插
+
+**model:lumi.86plug.v1**
