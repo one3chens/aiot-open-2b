@@ -82,7 +82,5 @@
 
 | 功能模块 | 资源 | 值类型 | 枚举值 | 最大值 | 最小值 | 描述 |
 | -- | -- | -- | -- | -- | -- | -- |
-| 86switch | switch_ch0_status | uint8_t | 0,1,2,3 | -- | --- | 0:释放，1:click,2:double_click,3:three_click |
-| 86switch | switch_ch1_status | uint8_t | 0,1,2,3 | -- | -- | 0:释放，1:click,2:double_click,3:three_click |
-| 86switch | switch_both_status | uint8_t | 4 | -- | -- | 4-双键单击 |
+| switch | switch_status | uint8_t | 0,1,2,3 | -- | --- | 0:释放，1:click,2:double_click,3:three_click |
 
