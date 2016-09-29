@@ -43,6 +43,7 @@
 | {"msgType":"device_unbind","did":"xxx","result":0/1} | {"Appid":"xxx","Appkey":"xxx"} | 解绑消息推送 |
 
 > - did: 设备id
+> - msgType: 消息类型
 > - result: 解绑结果,0-失败,1-成功
 > - Appid: 第三方应用的appId
 > - Appkey: 第三方应用的appKey
