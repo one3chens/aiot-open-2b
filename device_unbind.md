@@ -19,4 +19,4 @@
 
 | API | 描述 | payload | header | response |
 | -- | -- | -- | -- | -- |
-| /open/device/unbind | 设备解绑 | {"openId":"xxx","**did**":"xxx"} | {"**Appid**":"xxx","**Appkey**":"xxx","Openid":"xxx","**Access-Token**":"xxx"} | {"code":0(errorcode), "result":{"did":"value", "model":"value", "name":"value", "firmwareVersion": "value", "state":"value", "chipVersion":"value", "longitude":"value", "latitude":"value"}}} |
+| /open/device/unbind/gateway | 网关类设备解绑 | {"openId":"xxx","**did**":"xxx"} | {"**Appid**":"xxx","**Appkey**":"xxx","Openid":"xxx","**Access-Token**":"xxx"} | {"code":0(errorcode), "result":"msg"}} |
