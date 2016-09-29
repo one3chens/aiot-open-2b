@@ -154,3 +154,14 @@
 | ctrl_neutral2 | ctrl_ch1_status | int8_t | 0,1,2 | -- | -- | 打开/关闭,0:关闭，1:打开,2:toggle |
 | ctrl_neutral2 | load_voltage | uint32_t | -- | -- | -- | 负载电压，单位是毫伏 mV |
 | ctrl_neutral2 | load_power | uint32_t | -- | -- | -- | 负载功率，单位是瓦 W |
+
+##魔方
+
+**model:lumi.sensor_cube.v1,lumi.sensor_cube.es1**
+
+| 功能模块 | 资源 | 值类型 | 枚举值 | 最大值 | 最小值 | 描述 |
+| -- | -- | -- | -- | -- | -- | -- |
+| ctrl_neutral2 | ctrl_ch0_status | int8_t | 0,1,2 | -- | -- | 打开/关闭,0:关闭，1:打开,2:toggle |
+| ctrl_neutral2 | ctrl_ch1_status | int8_t | 0,1,2 | -- | -- | 打开/关闭,0:关闭，1:打开,2:toggle |
+| ctrl_neutral2 | load_voltage | uint32_t | -- | -- | -- | 负载电压，单位是毫伏 mV |
+| ctrl_neutral2 | load_power | uint32_t | -- | -- | -- | 负载功率，单位是瓦 W |
