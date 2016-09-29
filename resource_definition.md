@@ -117,6 +117,7 @@
 
 | 功能模块 | 资源 | 值类型 | 枚举值 | 最大值 | 最小值 | 描述 |
 | -- | -- | -- | -- | -- | -- | -- |
-| ht | temperature_value | int32_t | -- | -4000 | 12500 | 温度，单位0.01摄氏度，只读 |
-| ht | humidity_value | uint32_t | -- | 0 | 10000 | 湿度，单位万分之一，只读 |
+| ctrl_ln1 | ctrl_ch0_status | int8_t | 0,1,2 | -- | -- | 打开/关闭,0:关闭，1:打开,2:toggle |
+| ctrl_ln1 | load_voltage | uint32_t | -- | -- | -- | 负载电压，单位是毫伏 mV |
+| ctrl_ln1 | load_voltage | uint32_t | -- | -- | -- | 负载电压，单位是毫伏 mV |
 
