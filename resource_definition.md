@@ -111,4 +111,12 @@
 | ht | temperature_value | int32_t | -- | -4000 | 12500 | 温度，单位0.01摄氏度，只读 |
 | ht | humidity_value | uint32_t | -- | 0 | 10000 | 湿度，单位万分之一，只读 |
 
+##零火线单键墙壁开关
+
+**model:lumi.ctrl_ln1.v1,lumi.ctrl_ln1.es1**
+
+| 功能模块 | 资源 | 值类型 | 枚举值 | 最大值 | 最小值 | 描述 |
+| -- | -- | -- | -- | -- | -- | -- |
+| ht | temperature_value | int32_t | -- | -4000 | 12500 | 温度，单位0.01摄氏度，只读 |
+| ht | humidity_value | uint32_t | -- | 0 | 10000 | 湿度，单位万分之一，只读 |
 
