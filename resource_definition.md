@@ -56,3 +56,14 @@
 | 功能模块 | 资源 | 值类型 | 取值范围 | 最大值 | 最小值 | 描述 |
 | -- | -- | -- | -- | -- | -- | -- |
 | switch | switch_status | uint8_t | 0,1,2,3 | -- | -- | 0:释放，1:click,2:double_click,3:three_click |
+
+##智能插座
+
+**model:lumi.plug.v1, lumi.plug.es1**
+
+| 功能模块 | 资源 | 值类型 | 取值范围 | 最大值 | 最小值 | 描述 |
+| -- | -- | -- | -- | -- | -- | -- |
+| plug | plug_status | uint8_t | 0,1,2 | -- | -- | 插座打开/关闭,0:关闭，1:打开,2:toggle |
+| plug | load_voltage | uint32_t | -- | -- | -- | 负载电压，单位是毫伏 mV |
+| plug | load_power | uint32_t | -- | -- | -- | 负载功率，单位是瓦 W |
+| plug | cost_energy | float | -- | -- | -- | 消耗的电能 |
