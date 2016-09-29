@@ -48,3 +48,4 @@
 | plug | load_voltage | uint32_t | -- | -- | -- | 负载电压，单位是毫伏 mV |
 | plug | load_power | uint32_t | -- | -- | -- | 负载功率，单位是瓦 W |
 | plug | cost_energy | float | -- | -- | -- | 消耗的电能 |
+
