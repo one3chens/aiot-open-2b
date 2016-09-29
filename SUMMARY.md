@@ -5,6 +5,7 @@
    * [申请开发者账号](申请开发者账号.md)
    * [创建第三方应用](创建第三方应用.md)
 * [账户对接](zhang_hu_dui_jie.md)
+   * 账户对接
 * [设备管理](device_manage.md)
    * [设备入网](设备入网.md)
    * [设备信息获取](she_bei_xin_xi_huo_qu.md)
