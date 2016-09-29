@@ -10,4 +10,4 @@ model: lumi.gateway.v3
 | -- | -- | -- | -- | -- | -- | -- |
 | Alarm | alarm_status | uint8_t | 0,1 | -- | -- | 报警状态, 0-没报警，1-报警 |
 | Alarm | alarm_bell_index | uint32_t | -- | -- | -- | 播放警报index，当index=10000时播放默认铃声 |
-| Alarm | alarm_bell_index | uint32_t | -- | -- | -- | 播放警报index，当index=10000时播放默认铃声 |
+| Alarm | alarm_bell_volume | uint8_t | -- | 0 | 100 | 播放警报index，当index=10000时播放默认铃声 |
