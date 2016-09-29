@@ -90,5 +90,5 @@
 
 | 功能模块 | 资源 | 值类型 | 枚举值 | 最大值 | 最小值 | 描述 |
 | -- | -- | -- | -- | -- | -- | -- |
-| switch | switch_status | uint8_t | 0,1,2,3 | -- | --- | 0:释放，1:click,2:double_click,3:three_click |
+| magnet | magnet_status | uint8_t | 0,1 | -- | --- | 0:关，1:开 |
 
