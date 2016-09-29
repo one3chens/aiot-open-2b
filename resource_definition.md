@@ -49,3 +49,10 @@
 | plug | load_power | uint32_t | -- | -- | -- | 负载功率，单位是瓦 W |
 | plug | cost_energy | float | -- | -- | -- | 消耗的电能 |
 
+##86单键开关
+
+**model:lumi.sensor_86sw1.v1, lumi.sensor_86sw1.aq1**
+
+| 功能模块 | 资源 | 值类型 | 取值范围 | 最大值 | 最小值 | 描述 |
+| -- | -- | -- | -- | -- | -- | -- |
+| switch | switch_status | uint8_t | 0,1,2,3 | -- | -- | 0:释放，1:click,2:double_click,3:three_click |
