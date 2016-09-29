@@ -61,7 +61,7 @@
 
 **model:lumi.curtain.v1**
 
-| 功能模块 | 资源 | 值类型 | 取值范围 | 最大值 | 最小值 | 描述 |
+| 功能模块 | 资源 | 值类型 |  | 最大值 | 最小值 | 描述 |
 | -- | -- | -- | -- | -- | -- | -- |
 | curtain | curtain_open_percentage | uint8_t | -- | 0 | 100 | 窗帘打开百分比 |
 | curtain | curtain_status | uint8_t | 0,1,2 | -- | -- | 0:关，1:开,2:toggle 开窗帘、关窗帘、停止运动 |
