@@ -1,5 +1,5 @@
-# 资源定义
-
+#资源定义
+ 
 绿米智能设备均具备完善的资源定义，便于设备的管理。下面会根据设备类型，分别列出这些设备所具有的资源。
 
 ##网关300
@@ -27,3 +27,4 @@ model: lumi.gateway.v3
 | illumination | illumination_value | float | -- | 0 | 1000 | 照度 |
 | system_volume | system_volume | uint8_t | -- | 0 | 100 | 系统音量 |
 
+##86暗插
