@@ -7,6 +7,9 @@
 
 通过这两个API，便可以方便地实现账户的对接。
 
+![](账户对接.png)
+---
+
 ##获取accessToken
 
 | API | 描述 | payload | header | response |
