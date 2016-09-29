@@ -16,4 +16,5 @@ model: lumi.gateway.v3
 | Doorbell | doorbell_bell_index | uint32_t | -- | -- | -- | 播放门铃index，当index=10000时播放默认铃声 |
 | Doorbell | doorbell_bell_volume | uint8_t | -- | 0 | 100 | 门铃音音量,0~100 |
 | Clock | clock_status | uint8_t | 0,1 | -- | -- | 闹钟状态 0: 停止播放 1：开始播放 |
-| Clock | clock_status | uint8_t | 0,1 | -- | -- | 闹钟状态 0: 停止播放 1：开始播放 |
+| Clock | clock_bell_index | uint8_t | 0,1 | -- | -- | 闹钟状态 0: 停止播放 1：开始播放 |
+| Clock | clock_bell_index | uint32_t | 0,1 | -- | -- | 播放闹钟index，当index=10000时播放默认铃声 |
