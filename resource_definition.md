@@ -102,4 +102,13 @@
 | motion | motion_status | uint8_t | 1 | -- | --- | 1:有人 |
 | motion | no_motion_time_length | uint32_t | -- | -- | --- | 上报的数据是时间，单位为秒 |
 
+##温湿度传感器
+
+**model:lumi.sensor_ht.v1,lumi.sensor_ht.es1**
+
+| 功能模块 | 资源 | 值类型 | 枚举值 | 最大值 | 最小值 | 描述 |
+| -- | -- | -- | -- | -- | -- | -- |
+| ht | temperature_value | int32_t | -- | -4000 | 12500 | 温度，单位0.01摄氏度，只读 |
+| ht | humidity_value | uint32_t | -- | 0 | 10000 | 湿度，单位万分之一，只读 |
+
 
