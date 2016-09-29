@@ -26,3 +26,4 @@ model: lumi.gateway.v3
 | corridor_light | corridor_light_bright | uint32_t | -- | 0 | 100 | 夜灯亮度，0~100 |
 | illumination | illumination_value | float | -- | 0 | 1000 | 照度 |
 | system_volume | system_volume | uint8_t | -- | 0 | 100 | 系统音量 |
+
