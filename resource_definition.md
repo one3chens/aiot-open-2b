@@ -99,7 +99,7 @@
 
 | 功能模块 | 资源 | 值类型 | 枚举值 | 最大值 | 最小值 | 描述 |
 | -- | -- | -- | -- | -- | -- | -- |
-| magnet | magnet_status | uint8_t | 0,1 | -- | --- | 0:关，1:开 |
-| magnet | no_close_time_length | uint32_t | -- | -- | --- | 上报的数据是时间，单位为秒 |
+| motion | motion_status | uint8_t | 1 | -- | --- | 1:有人 |
+| motion | no_motion_time_length | uint32_t | -- | -- | --- | 上报的数据是时间，单位为秒 |
 
 
