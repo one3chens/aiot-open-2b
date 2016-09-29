@@ -15,3 +15,4 @@ AIOT开放API的返回结果中，包含一个code字段，它的值是错误码
 | ERROR_USER | 403 | ERROR_USER_PERMISSION_DENIED | 拒绝用户访问，没有权限 |
 | ERROR_USER | 411 | ERROR_PASSWORD_NOT_CORRECT | 密码错误 |
 | ERROR_USER | 412 | ERROR_TOKEN_FAILED | Token失效 |
+| ERROR_SERVER | 500 | ERROR_INTERNAL_SERVER | Server Error 服务器出错，服务器处理中出错 |
