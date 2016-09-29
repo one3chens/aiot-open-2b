@@ -91,4 +91,15 @@
 | 功能模块 | 资源 | 值类型 | 枚举值 | 最大值 | 最小值 | 描述 |
 | -- | -- | -- | -- | -- | -- | -- |
 | magnet | magnet_status | uint8_t | 0,1 | -- | --- | 0:关，1:开 |
-| magnet | no_close_time_length | uint32_t | -- | -- | --- | 上报的数据是时间 |
+| magnet | no_close_time_length | uint32_t | -- | -- | --- | 上报的数据是时间，单位为秒 |
+
+##人体传感器
+
+**model:lumi.sensor_motion.v1,lumi.sensor_motion.v2,lumi.sensor_motion.aq2,lumi.sensor_motion.es2**
+
+| 功能模块 | 资源 | 值类型 | 枚举值 | 最大值 | 最小值 | 描述 |
+| -- | -- | -- | -- | -- | -- | -- |
+| magnet | magnet_status | uint8_t | 0,1 | -- | --- | 0:关，1:开 |
+| magnet | no_close_time_length | uint32_t | -- | -- | --- | 上报的数据是时间，单位为秒 |
+
+
