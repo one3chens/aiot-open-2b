@@ -57,7 +57,7 @@
 | -- | -- | -- | -- | -- | -- | -- |
 | switch | switch_status | uint8_t | 0,1,2,3 | -- | -- | 0:释放，1:click,2:double_click,3:three_click |
 
-##智能插座
+##智能窗帘
 
 **model:lumi.plug.v1, lumi.plug.es1**
 
