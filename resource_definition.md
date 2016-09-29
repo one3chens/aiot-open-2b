@@ -21,3 +21,6 @@ model: lumi.gateway.v3
 | arming | arming_status | uint8_t | 1,2,3,4 | -- | -- | 布防状态：1:开/0:关/2:启动中/3:toggle /4:消警但不撤防 |
 | arming | arming_last_alert_time | uint32_t | -- | -- | -- | 上次改变布防状态的时间,1970.1.1以后的秒数 |
 | arming | arming_delay_time | uint32_t | -- | -- | -- | 布防等待时间，单位秒，PROP_TIME_DELAY = 113 |
+| corridor_light | corridor_light_status | uint8_t | 0,1,2 | -- | -- | 夜灯 1：打开 0：/关闭/2：toggle/3：智能夜灯打开（无人能自动灭，照度大能自动灭） |
+| corridor_light | corridor_light_argb | uint32_t | -- | -- | -- | 夜灯ARGB |
+| corridor_light | corridor_light_argb | uint32_t | -- | -- | -- | 夜灯ARGB |
