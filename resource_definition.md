@@ -38,6 +38,15 @@
 | camera | vedio_screen_shot | uint8_t | 0,1 | -- | -- | 截图|
 | camera | vedio_record_time | uint8_t | -- | 0 | 255 | 录像时间，单位秒 |
 
+##空调伴侣
+
+**model:lumi.acpartner.v1,lumi.acpartner.es1**
+
+| 功能模块 | 资源 | 值类型 | 枚举值 | 最大值 | 最小值 | 描述 |
+| -- | -- | -- | -- | -- | -- | -- |
+| acpartner | ac_status | uint32_t | 0,1,2,3,... | -- | -- | 空调伴侣，根据uint32_t的值决定是开关、风速、模式等等 |
+| acpartner | ac_load_power | uint32_t | -- | -- | -- | 空调伴侣负载功率，单位是瓦 W |
+
 ##86暗插
 
 **model:lumi.86plug.v1**
