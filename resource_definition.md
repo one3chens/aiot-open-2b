@@ -19,4 +19,4 @@ model: lumi.gateway.v3
 | Clock | clock_bell_index | uint32_t | -- | -- | -- | 播放闹钟index，当index=10000时播放默认铃声 |
 | Clock | clock_volume | uint8_t | -- | 0 | 100 | 闹钟音量,0~100 |
 | arming | arming_status | uint8_t | 1,2,3,4 | -- | -- | 布防状态：1:开/0:关/2:启动中/3:toggle /4:消警但不撤防 |
-| arming | arming_last_alert_time | uint8_t | 1,2,3,4 | -- | -- | 上次改变布防状态的时间,1970.1.1以后的秒数 |
+| arming | arming_last_alert_time | uint32_t | -- | -- | -- | 上次改变布防状态的时间,1970.1.1以后的秒数 |
