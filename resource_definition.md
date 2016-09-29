@@ -6,7 +6,7 @@
 
 **model: lumi.gateway.v3**
 
-| 功能模块 | 资源 | 值类型 | 取值范围 | 最大值 | 最小值 | 描述 |
+| 功能模块 | 资源 | 值类型 | 枚举值 | 最大值 | 最小值 | 描述 |
 | -- | -- | -- | -- | -- | -- | -- |
 | Alarm | alarm_status | uint8_t | 0,1 | -- | -- | 报警状态, 0-没报警，1-报警 |
 | Alarm | alarm_bell_index | uint32_t | -- | -- | -- | 播放警报index，当index=10000时播放默认铃声 |
@@ -31,7 +31,7 @@
 
 **model:lumi.86plug.v1**
 
-| 功能模块 | 资源 | 值类型 | 取值范围 | 最大值 | 最小值 | 描述 |
+| 功能模块 | 资源 | 值类型 | 枚举值 | 最大值 | 最小值 | 描述 |
 | -- | -- | -- | -- | -- | -- | -- |
 | 86plug | 86plug_status | uint8_t | 0,1,2 | -- | -- | 插座打开/关闭,0:关闭，1:打开,2:toggle |
 | 86plug | load_voltage | uint32_t | -- | -- | -- | 负载电压，单位是毫伏 mV |
@@ -42,7 +42,7 @@
 
 **model:lumi.plug.v1, lumi.plug.es1**
 
-| 功能模块 | 资源 | 值类型 | 取值范围 | 最大值 | 最小值 | 描述 |
+| 功能模块 | 资源 | 值类型 | 枚举值 | 最大值 | 最小值 | 描述 |
 | -- | -- | -- | -- | -- | -- | -- |
 | plug | plug_status | uint8_t | 0,1,2 | -- | -- | 插座打开/关闭,0:关闭，1:打开,2:toggle |
 | plug | load_voltage | uint32_t | -- | -- | -- | 负载电压，单位是毫伏 mV |
@@ -53,7 +53,7 @@
 
 **model:lumi.sensor_86sw1.v1, lumi.sensor_86sw1.aq1**
 
-| 功能模块 | 资源 | 值类型 | 取值范围 | 最大值 | 最小值 | 描述 |
+| 功能模块 | 资源 | 值类型 | 枚举值 | 最大值 | 最小值 | 描述 |
 | -- | -- | -- | -- | -- | -- | -- |
 | switch | switch_status | uint8_t | 0,1,2,3 | -- | -- | 0:释放，1:click,2:double_click,3:three_click |
 
@@ -61,7 +61,7 @@
 
 **model:lumi.curtain.v1**
 
-| 功能模块 | 资源 | 值类型 |  | 最大值 | 最小值 | 描述 |
+| 功能模块 | 资源 | 值类型 | 枚举值 | 最大值 | 最小值 | 描述 |
 | -- | -- | -- | -- | -- | -- | -- |
 | curtain | curtain_open_percentage | uint8_t | -- | 0 | 100 | 窗帘打开百分比 |
 | curtain | curtain_status | uint8_t | 0,1,2 | -- | -- | 0:关，1:开,2:toggle 开窗帘、关窗帘、停止运动 |
