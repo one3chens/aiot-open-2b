@@ -121,3 +121,15 @@
 | ctrl_ln1 | load_voltage | uint32_t | -- | -- | -- | 负载电压，单位是毫伏 mV |
 | ctrl_ln1 | load_power | uint32_t | -- | -- | -- | 负载功率，单位是瓦 W |
 | ctrl_ln1 | cost_energy | float | -- | -- | -- | 消耗的电能 |
+
+##零火线双键墙壁开关
+
+**model:lumi.ctrl_ln2.v1,lumi.ctrl_ln2.es1**
+
+| 功能模块 | 资源 | 值类型 | 枚举值 | 最大值 | 最小值 | 描述 |
+| -- | -- | -- | -- | -- | -- | -- |
+| ctrl_ln2 | ctrl_ch0_status | int8_t | 0,1,2 | -- | -- | 打开/关闭,0:关闭，1:打开,2:toggle |
+| ctrl_ln2 | ctrl_ch1_status | int8_t | 0,1,2 | -- | -- | 打开/关闭,0:关闭，1:打开,2:toggle |
+| ctrl_ln2 | load_voltage | uint32_t | -- | -- | -- | 负载电压，单位是毫伏 mV |
+| ctrl_ln2 | load_power | uint32_t | -- | -- | -- | 负载功率，单位是瓦 W |
+| ctrl_ln2 | cost_energy | float | -- | -- | -- | 消耗的电能 |
