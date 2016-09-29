@@ -65,3 +65,13 @@
 | -- | -- | -- | -- | -- | -- | -- |
 | curtain | curtain_open_percentage | uint8_t | -- | 0 | 100 | 窗帘打开百分比 |
 | curtain | curtain_status | uint8_t | 0,1,2 | -- | -- | 0:关，1:开,2:toggle 开窗帘、关窗帘、停止运动 |
+
+##无线开关
+
+**model:lumi.sensor_86sw2.v1, lumi.sensor_86sw2.aq1**
+
+| 功能模块 | 资源 | 值类型 | 枚举值 | 最大值 | 最小值 | 描述 |
+| -- | -- | -- | -- | -- | -- | -- |
+| 86switch | switch_ch0_status | uint8_t | 0,1,2,3 | -- | --- | 0:释放，1:click,2:double_click,3:three_click |
+| 86switch | switch_ch1_status | uint8_t | 0,1,2,3 | -- | -- | 0:释放，1:click,2:double_click,3:three_click |
+| 86switch | switch_both_status | uint8_t | 4 | -- | -- | 4-双键单击 |
