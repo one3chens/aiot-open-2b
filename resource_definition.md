@@ -120,4 +120,4 @@
 | ctrl_ln1 | ctrl_ch0_status | int8_t | 0,1,2 | -- | -- | 打开/关闭,0:关闭，1:打开,2:toggle |
 | ctrl_ln1 | load_voltage | uint32_t | -- | -- | -- | 负载电压，单位是毫伏 mV |
 | ctrl_ln1 | load_power | uint32_t | -- | -- | -- | 负载功率，单位是瓦 W |
-| ctrl_ln1 | load_power | float | -- | -- | -- | 消耗的电能 |
+| ctrl_ln1 | cost_energy | float | -- | -- | -- | 消耗的电能 |
