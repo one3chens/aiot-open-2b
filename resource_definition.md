@@ -23,4 +23,4 @@ model: lumi.gateway.v3
 | arming | arming_delay_time | uint32_t | -- | -- | -- | 布防等待时间，单位秒，PROP_TIME_DELAY = 113 |
 | corridor_light | corridor_light_status | uint8_t | 0,1,2 | -- | -- | 夜灯 1：打开 0：/关闭/2：toggle/3：智能夜灯打开（无人能自动灭，照度大能自动灭） |
 | corridor_light | corridor_light_argb | uint32_t | -- | -- | -- | 夜灯ARGB |
-| corridor_light | corridor_light_argb | uint32_t | -- | -- | -- | 夜灯ARGB |
+| corridor_light | corridor_light_bright | uint32_t | -- | 0 | 100 | 夜灯亮度，0~100 |
