@@ -9,3 +9,4 @@ model: lumi.gateway.v3
 | 功能模块 | 资源 | 值类型 | 取值范围 | 最大值 | 最小值 | 描述 |
 | -- | -- | -- | -- | -- | -- | -- |
 | Alarm | alarm_status | uint8_t | 0,1 | -- | -- | 报警状态, 0-没报警，1-报警 |
+| Alarm | alarm_status | uint8_t | 0,1 | -- | -- | 报警状态, 0-没报警，1-报警 |
