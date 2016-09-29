@@ -28,6 +28,7 @@
 | system_volume | system_volume | uint8_t | -- | 0 | 100 | 系统音量 |
 
 ##摄像头
+
 **model:lumi.camera.v1**
 
 | 功能模块 | 资源 | 值类型 | 枚举值 | 最大值 | 最小值 | 描述 |
