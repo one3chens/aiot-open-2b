@@ -33,10 +33,10 @@
 
 | 功能模块 | 资源 | 值类型 | 枚举值 | 最大值 | 最小值 | 描述 |
 | -- | -- | -- | -- | -- | -- | -- |
-| 86plug | 86plug_status | uint8_t | 0,1,2 | -- | -- | 插座打开/关闭,0:关闭，1:打开,2:toggle |
-| 86plug | load_voltage | uint32_t | -- | -- | -- | 负载电压，单位是毫伏 mV |
-| 86plug | load_power | uint32_t | -- | -- | -- | 负载功率，单位是瓦 W |
-| 86plug | cost_energy | float | -- | -- | -- | 消耗的电能 |
+| camera | vedio_status | uint8_t | 0,1 | -- | -- | 改变当前视频开关状态，0：关闭视频，1：打开视频 |
+| camera | vedio_mode | uint8_t | 0,1,2,3,... | -- | -- | 模式切换，水平模式，VR视角，四分屏，二分屏 |
+| camera | vedio_screen_shot | uint8_t | 0,1 | -- | -- | 截图|
+| camera | vedio_record_time | uint8_t | -- | 0 | 255 | 录像时间，单位秒 |
 
 ##86暗插
 
