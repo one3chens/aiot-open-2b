@@ -27,6 +27,16 @@
 | illumination | illumination_value | float | -- | 0 | 1000 | 照度 |
 | system_volume | system_volume | uint8_t | -- | 0 | 100 | 系统音量 |
 
+##摄像头
+**model:lumi.camera.v1**
+
+| 功能模块 | 资源 | 值类型 | 枚举值 | 最大值 | 最小值 | 描述 |
+| -- | -- | -- | -- | -- | -- | -- |
+| 86plug | 86plug_status | uint8_t | 0,1,2 | -- | -- | 插座打开/关闭,0:关闭，1:打开,2:toggle |
+| 86plug | load_voltage | uint32_t | -- | -- | -- | 负载电压，单位是毫伏 mV |
+| 86plug | load_power | uint32_t | -- | -- | -- | 负载功率，单位是瓦 W |
+| 86plug | cost_energy | float | -- | -- | -- | 消耗的电能 |
+
 ##86暗插
 
 **model:lumi.86plug.v1**
