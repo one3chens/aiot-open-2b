@@ -84,3 +84,11 @@
 | -- | -- | -- | -- | -- | -- | -- |
 | switch | switch_status | uint8_t | 0,1,2,3 | -- | --- | 0:释放，1:click,2:double_click,3:three_click |
 
+##门窗传感器
+
+**model:lumi.sensor_magnet.v1,lumi.sensor_magnet.v2,lumi.sensor_magnet.aq2,lumi.sensor_magnet.es2**
+
+| 功能模块 | 资源 | 值类型 | 枚举值 | 最大值 | 最小值 | 描述 |
+| -- | -- | -- | -- | -- | -- | -- |
+| switch | switch_status | uint8_t | 0,1,2,3 | -- | --- | 0:释放，1:click,2:double_click,3:three_click |
+
