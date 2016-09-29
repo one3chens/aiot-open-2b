@@ -40,7 +40,7 @@
 
 | payload | header | 描述 |
 | -- | -- | -- |
-| {"did":"xxx","result":0/1} | {"Appid":"xxx","Appkey":"xxx"} | 解绑消息推送 |
+| {"msgType":"device_unbind","did":"xxx","result":0/1} | {"Appid":"xxx","Appkey":"xxx"} | 解绑消息推送 |
 
 > - did: 设备id
 > - result: 解绑结果,0-失败,1-成功
