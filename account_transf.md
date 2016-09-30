@@ -13,6 +13,15 @@
 
 ##获取accessToken
 
+
+| **API** | /open/account/access/get |
+| --: | -- |
+| **描述** | 用户获取接入权限 |
+| **header** | {"**Appid**":"xxx","**Appkey**":"xxx"} |
+| **payload** | {"accountId":"xxx"} |
+| **response** | {"code":0(errorCode), "result":{"openId":"xxx","accessToken":"xxx","expires_in":xxx,"refreshToken":"xxx"} |
+
+
 | API | 描述 | payload | header | response |
 | -- | -- | -- | -- | -- |
 | /open/account/access/get | 用户获取接入权限 | {"accountId":"xxx"} | {"Appid":"xxx","Appkey":"xxx"} | {"code":0(errorCode), "result":{"openId":"xxx","accessToken":"xxx","expires_in":xxx,"refreshToken":"xxx"} |
