@@ -4,7 +4,7 @@
 * [申请开放接口](apply_for_open_api.md)
    * [申请开发者账号](申请开发者账号.md)
    * [创建第三方应用](创建第三方应用.md)
-   * 开放接口调用规范
+   * [开放接口调用规范](open_api_use.md)
 * [账户对接](account_manage.md)
    * [账户对接](account_transf.md)
 * [设备管理](device_manage.md)
