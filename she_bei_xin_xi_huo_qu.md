@@ -1,6 +1,12 @@
-# 设备信息获取
+#设备信息获取
 
-AIOT开放API可供第三方应用查询设备基本信息，如设备id、设备类型、设备名称、固件版本等。
+AIOT开放API可供第三方应用查询设备基本信息，如
+
+- name: 设备名称
+- model: 设备类型
+- firmwareVersion: 设备固件版本
+- chipVersion: 设备芯片版本
+- state: 设备在线离线状态
 
 | **API** | /open/device/query |
 | --: | :-- |
