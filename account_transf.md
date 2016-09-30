@@ -41,8 +41,4 @@
 | **payload** | {"openId":"xxx","refreshToken":"xxx"} |
 | **response** | {"code":0(errorCode), "result":{"openId":"xxx","accessToken":"xxx","expires_in":xxx,"refreshToken":"xxx"} |
 
-| API | 描述 | payload | header | response |
-| -- | -- | -- | -- | -- |
-| /open/account/access/refresh | 刷新权限 | {"openId":"xxx","refreshToken":"xxx"} | {"Appid":"xxx","Appkey":"xxx"} | {"code":0(errorCode), "result":{"openId":"xxx","accessToken":"xxx","expires_in":xxx,"refreshToken":"xxx" |
-
 当accessToken过期时，利用refreshToken和这个API，可以重新获取一对新的accessToken和refreshToken。
