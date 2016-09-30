@@ -19,14 +19,14 @@
 ![](设备解绑-app.png)
 
 | **API** | /open/device/unbind/gateway |
-| --: | -- |
+| --: | :-- |
 | **描述** | 网关类设备解绑 |
 | **header** | {"**Appid**":"xxx","**Appkey**":"xxx","Openid":"xxx","**Access-Token**":"xxx"} |
 | **payload** | {"openId":"xxx","**did**":"xxx"} |
 | **response** | {"code":0(errorcode), "result":"msg"}} |
 
 | **API** | /open/device/unbind/subdevice |
-| --: | -- |
+| --: | :-- |
 | **描述** | 子设备解绑 |
 | **header** | {"**Appid**":"xxx","**Appkey**":"xxx","Openid":"xxx","**Access-Token**":"xxx"} |
 | **payload** | {"openId":"xxx","**did**":"xxx"} |
@@ -48,7 +48,7 @@
 需要第三方应用后台提供接收消息的接口，这里定义消息内容格式：
 
 | msgType | device_unbind |
-| --: | -- |
+| --: | :-- |
 | **描述** | 解绑消息推送 |
 | **header** | {"**Appid**":"xxx","**Appkey**":"xxx"} |
 | **payload** | {"**msgType**":"device_unbind","**did**":"xxx","**result**":0/1} |
