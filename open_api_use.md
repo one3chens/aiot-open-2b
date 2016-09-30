@@ -1,4 +1,4 @@
-# 开放接口调用规范
+# 开放接口调用规# 开放接口调用规范
 
 
 AIOT开放接口均使用HTTPS协议，需要在header中添加校验信息，在body中添加payload信息，返回结果为JSON格式。
@@ -20,9 +20,15 @@ AIOT开放接口均使用HTTPS协议，需要在header中添加校验信息，�
 
 其中：
 
-- Appid为第三方应用appId
-- Appkey为第三方应用appKey
-- Access-Token为用户Token（详见账户对接文档）
-- Openid为用户在AIOT中的账号（详见账户对接文档）
-- 
+- Appid: 第三方应用appId
+- Appkey: 第三方应用appKey
+- Access-Token: 用户Token（详见账户对接文档）
+- Openid: 用户在AIOT中的账号（详见账户对接文档）
+- did: 设备id
+- errorcode: 错误码（详见错误码文档）
+- model: 设备类型
+- firmwareVersion: 设备固件版本
+- state: 设备在线离线状态
+- chipVersion: 设备芯片版本
+- longitude, latitude: 设备地理位置经纬度
 
