@@ -15,7 +15,7 @@
 
 
 | **API** | /open/account/access/get |
-| --: | -- |
+| --: | :-- |
 | **描述** | 用户获取接入权限 |
 | **header** | {"**Appid**":"xxx","**Appkey**":"xxx"} |
 | **payload** | {"accountId":"xxx"} |
