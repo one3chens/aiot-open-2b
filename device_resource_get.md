@@ -16,10 +16,15 @@ AIOT开放API可供第三方应用查询设备属性。
 | payload | {"openId":"xxx","**did**":"xxx","**option**":["attr1","attr2",...]} |
 | response | {"code":0(errorcode), "result":{"did":"xxx","data":{"attr1":"xxx","attr2",...}}} |
 
+| API | /open/res/query/history/option |
+| --: | -- |
+| 描述 | 查询资源历史 |
+| header | {"**Appid**":"xxx","**Appkey**":"xxx","Openid":"xxx","**Access-Token**":"xxx"} |
+| payload | {"openId":"xxx","did":"xxx","startDate":"2016-02-10", "endDate":"2016-03-10", "option":["attr1", "attr2",…],"startCount":xx,"endCount":xx} |
+| response | {"code":0(errorcode), "result":{"did":"11111","data":[{"attr1":"xxx","time":xxxxx},{"attr1":"xxx","time":xxxx},{"attr2":"xxx","time":xxxxx},{},...]}} |
 
 | API | 描述 | payload | header | response |
 | -- | -- | -- | -- | -- |
-| /open/res/query/option | 查询设备的某些资源当前值 | {"openId":"xxx","**did**":"xxx","**option**":["attr1","attr2",...]} | {"**Appid**":"xxx","**Appkey**":"xxx","Openid":"xxx","**Access-Token**":"xxx"} | {"code":0(errorcode), "result":{"did":"xxx","data":{"attr1":"xxx","attr2",...}}} |
 
 | /open/res/query/history/option | 查询资源历史 | {"openId":"xxx","did":"xxx","startDate":"2016-02-10", "endDate":"2016-03-10", "option":["attr1", "attr2",…],"startCount":xx,"endCount":xx} | {"**Appid**":"xxx","**Appkey**":"xxx","Openid":"xxx","**Access-Token**":"xxx"} | {"code":0(errorcode), "result":{"did":"11111","data":[{"attr1":"xxx","time":xxxxx},{"attr1":"xxx","time":xxxx},{"attr2":"xxx","time":xxxxx},{},...]}} |
 
