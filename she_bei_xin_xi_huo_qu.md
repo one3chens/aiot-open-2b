@@ -2,6 +2,14 @@
 
 AIOT开放API可供第三方应用查询设备基本信息，如设备id、设备类型、设备名称、固件版本等。
 
+| **API** | /open/device/query |
+| --: | -- |
+| **描述** | 查询设备信息 |
+| **header** | {"**Appid**":"xxx","**Appkey**":"xxx","Openid":"xxx","**Access-Token**":"xxx"} |
+| **payload** | {"openId":"xxx","**did**":"xxx"} |
+| **response** | {"code":0(errorcode), "result":{"did":"xxx", "model":"xxx", "name":"xxx", "firmwareVersion": "xxx", "state":"xxx", "chipVersion":"xxx", "longitude":"xxx", "latitude":"xxx"}}} |
+
+
 | API | 描述 | payload | header | response |
 | -- | -- | -- | -- | -- |
 | /open/device/query | 查询设备信息 | {"openId":"xxx","**did**":"xxx"} | {"**Appid**":"xxx","**Appkey**":"xxx","Openid":"xxx","**Access-Token**":"xxx"} | {"code":0(errorcode), "result":{"did":"xxx", "model":"xxx", "name":"xxx", "firmwareVersion": "xxx", "state":"xxx", "chipVersion":"xxx", "longitude":"xxx", "latitude":"xxx"}}} |
