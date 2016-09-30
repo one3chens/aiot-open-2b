@@ -37,8 +37,6 @@ AIOT开放API可供第三方应用查询设备基本信息，如设备id、设�
 | **payload** | {"openId":"xxx"} |
 | **response** | {"code":0(errorcode), "result":[{"did":"xxx", "model":"xxx", "name":"xxx", "firmwareVersion": "xxx", "state":"xxx", "chipVersion":"xxx", "longitude":"xxx", "latitude":"xxx"}{"did":"xxx", "model":"xxx", "name":"xxx", "firmwareVersion": "xxx", "state":"xxx", "chipVersion":"xxx", "longitude":"xxx", "latitude":"xxx"}]}} |
 
-| /open/device/query/user | 查询用户所有设备的信息 | {"openId":"xxx"} | {"**Appid**":"xxx","**Appkey**":"xxx","Openid":"xxx","**Access-Token**":"xxx"} | {"code":0(errorcode), "result":[{"did":"xxx", "model":"xxx", "name":"xxx", "firmwareVersion": "xxx", "state":"xxx", "chipVersion":"xxx", "longitude":"xxx", "latitude":"xxx"}{"did":"xxx", "model":"xxx", "name":"xxx", "firmwareVersion": "xxx", "state":"xxx", "chipVersion":"xxx", "longitude":"xxx", "latitude":"xxx"}]}} |
-
 > - did: 设备id
 > - openId: 用户id
 > - Appid: 第三方应用appId
