@@ -18,10 +18,10 @@ AIOT开放API可供第三方应用查询设备属性。
 
 | API | /open/res/query/history/option |
 | --: | -- |
-| 描述 | 查询资源历史 |
-| header | {"**Appid**":"xxx","**Appkey**":"xxx","Openid":"xxx","**Access-Token**":"xxx"} |
-| payload | {"openId":"xxx","did":"xxx","startDate":"2016-02-10", "endDate":"2016-03-10", "option":["attr1", "attr2",…],"startCount":xx,"endCount":xx} |
-| response | {"code":0(errorcode), "result":{"did":"11111","data":[{"attr1":"xxx","time":xxxxx},{"attr1":"xxx","time":xxxx},{"attr2":"xxx","time":xxxxx},{},...]}} |
+| **描述** | 查询资源历史 |
+| **header** | {"**Appid**":"xxx","**Appkey**":"xxx","Openid":"xxx","**Access-Token**":"xxx"} |
+| **payload** | {"openId":"xxx","did":"xxx","startDate":"2016-02-10", "endDate":"2016-03-10", "option":["attr1", "attr2",…],"startCount":xx,"endCount":xx} |
+| **response** | {"code":0(errorcode), "result":{"did":"11111","data":[{"attr1":"xxx","time":xxxxx},{"attr1":"xxx","time":xxxx},{"attr2":"xxx","time":xxxxx},{},...]}} |
 
 > - openId: 用户id
 > - did: 设备id
