@@ -35,7 +35,7 @@
 ##刷新accessToken
 
 | **API** | /open/account/access/refresh |
-| --: | -- |
+| --: | :-- |
 | **描述** | 刷新权限 |
 | **header** | {"**Appid**":"xxx","**Appkey**":"xxx"} |
 | **payload** | {"openId":"xxx","refreshToken":"xxx"} |
