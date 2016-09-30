@@ -4,9 +4,10 @@
 
 | payload | header | 描述 |
 | -- | -- | --- |
-| {"**did**":"xxx","**data**":{"mac": "value", "name": "name", "firmwareVersion": "value", "state":"value", "model":"value", "chipVersion":"value","longitude":"value", "latitude":"value"}} | {"Appid":"xxx","Appkey":"xxx"} | 设备信息推送 |
+| {"msgType":"device_info","**did**":"xxx","**data**":{"mac": "value", "name": "name", "firmwareVersion": "value", "state":"value", "model":"value", "chipVersion":"value","longitude":"value", "latitude":"value"}} | {"Appid":"xxx","Appkey":"xxx"} | 设备信息推送 |
 
 > - did: 设备id
+> - msgType: 消息类型
 > - state: 设备在线/离线状态，0-在线，1-离线
 > - Appid: 第三方应用的appId
 > - Appkey: 第三方应用的appKey
