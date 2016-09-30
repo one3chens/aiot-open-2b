@@ -32,13 +32,6 @@
 | **payload** | {"openId":"xxx","**did**":"xxx"} |
 | **response** | {"code":0(errorcode), "result":"msg"}} |
 
-
-
-| API | 描述 | payload | header | response |
-| -- | -- | -- | -- | -- |
-| /open/device/unbind/gateway | 网关类设备解绑 | {"openId":"xxx","**did**":"xxx"} | {"**Appid**":"xxx","**Appkey**":"xxx","Openid":"xxx","**Access-Token**":"xxx"} | {"code":0(errorcode), "result":"msg"}} |
-| /open/device/unbind/subdevice | 子设备解绑 | {"openId":"xxx","**did**":"xxx"} | {"**Appid**":"xxx","**Appkey**":"xxx","Openid":"xxx","**Access-Token**":"xxx"} | {"code":0(errorcode), "result":"msg"}} |
-
 ---
 
 ##设备发起解绑
