@@ -9,10 +9,13 @@ AIOT开放API可供第三方应用查询设备基本信息，如设备id、设�
 | **payload** | {"openId":"xxx","**did**":"xxx"} |
 | **response** | {"code":0(errorcode), "result":{"did":"xxx", "model":"xxx", "name":"xxx", "firmwareVersion": "xxx", "state":"xxx", "chipVersion":"xxx", "longitude":"xxx", "latitude":"xxx"}}} |
 
+| **API** | /open/device/query/option |
+| --: | -- |
+| **描述** | 查询设备特定信息 |
+| **header** | {"**Appid**":"xxx","**Appkey**":"xxx","Openid":"xxx","**Access-Token**":"xxx"} |
+| **payload** | {"openId":"xxx","**did**":"xxx","**option**":["option1","option2",...]} |
+| **response** | {"code":0(errorcode), "result":{"did":"xxx", "option1":"xxx", "option2":"xxx", ...}} |
 
-| API | 描述 | payload | header | response |
-| -- | -- | -- | -- | -- |
-| /open/device/query | 查询设备信息 | {"openId":"xxx","**did**":"xxx"} | {"**Appid**":"xxx","**Appkey**":"xxx","Openid":"xxx","**Access-Token**":"xxx"} | {"code":0(errorcode), "result":{"did":"xxx", "model":"xxx", "name":"xxx", "firmwareVersion": "xxx", "state":"xxx", "chipVersion":"xxx", "longitude":"xxx", "latitude":"xxx"}}} |
 | /open/device/query/option | 查询设备特定信息 | {"openId":"xxx","**did**":"xxx","**option**":["option1","option2",...]} | {"**Appid**":"xxx","**Appkey**":"xxx","Openid":"xxx","**Access-Token**":"xxx"} | {"code":0(errorcode), "result":{"did":"xxx", "option1":"xxx", "option2":"xxx", ...}} |
 | /open/device/query/children | 查询网关下子设备信息 | {"openId":"xxx","**did**":"xxx"} | {"**Appid**":"xxx","**Appkey**":"xxx","Openid":"xxx","**Access-Token**":"xxx"} | {"code":0(errorcode), "result":[{"did":"xxx", "model":"xxx", "name":"xxx", "firmwareVersion": "xxx", "state":"xxx", "chipVersion":"xxx", "longitude":"xxx", "latitude":"xxx"}]}} |
 | /open/device/query/children | 查询网关下子设备特定信息 | {"openId":"xxx","**did**":"xxx","**option**":["option1","option2",...]} | {"**Appid**":"xxx","**Appkey**":"xxx","Openid":"xxx","**Access-Token**":"xxx"} | {"code":0(errorcode), "result":[{"did":"xxx", "option1":"xxx", "option2":"xxx", ...}]}} |
