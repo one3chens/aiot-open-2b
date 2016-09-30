@@ -3,7 +3,7 @@
 
 AIOT开放接口均使用HTTPS协议，需要在header中添加校验信息，在body中添加payload信息，返回结果为JSON格式。
 
-- 开放接口统一域名: https://aiot-rpc.aqara.cn
+- 开放接口统一域名: https://aiot-rpc-3rd.aqara.cn
 - header部分的校验信息: ```{"Appid":"xxx","Appkey":"xxx","Access-Token":"xxx","Openid":"xxx"}```
 - payload数据格式：JSON
 - 返回结果数据格式：JSON
