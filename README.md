@@ -6,7 +6,7 @@ AIOT云对外提供灵活的开放服务，我们开放云端接口供第三方�
 
 ![](c2c.png)
 
-#AIOT云对云接口（Cloud-2-Cloud）
+#绿米AIOT云对云接口（Cloud-2-Cloud）
 
 AIOT为云对云提供了非常完善的接口，包括有:
 - 账号对接
