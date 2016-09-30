@@ -7,7 +7,7 @@ AIOT开放API可供第三方应用查询设备基本信息，如设备id、设�
 | **描述** | 查询设备信息 |
 | **header** | {"**Appid**":"xxx","**Appkey**":"xxx","Openid":"xxx","**Access-Token**":"xxx"} |
 | **payload** | {"openId":"xxx","**did**":"xxx"} |
-| **response** | {"code":0(errorcode), "result":{"did":"xxx", "model":"xxx", "name":"xxx", "firmwareVersion": "xxx", "state":"xxx", "chipVersion":"xxx", "longitude":"xxx", "latitude":"xxx"}}} |
+| **response** | {"code":0(errorcode), "result":{"did":"xxx", "model":"xxx", "name":"xxx", "firmwareVersion": "xxx", "state":"xxx", "chipVersion":"xxx"}}} |
 
 | **API** | /open/device/query/option |
 | --: | :-- |
@@ -21,7 +21,7 @@ AIOT开放API可供第三方应用查询设备基本信息，如设备id、设�
 | **描述** | 查询网关下子设备信息 |
 | **header** | {"**Appid**":"xxx","**Appkey**":"xxx","Openid":"xxx","**Access-Token**":"xxx"} |
 | **payload** | {"openId":"xxx","**did**":"xxx"} |
-| **response** | {"code":0(errorcode), "result":[{"did":"xxx", "model":"xxx", "name":"xxx", "firmwareVersion": "xxx", "state":"xxx", "chipVersion":"xxx", "longitude":"xxx", "latitude":"xxx"}]}} |
+| **response** | {"code":0(errorcode), "result":[{"did":"xxx", "model":"xxx", "name":"xxx", "firmwareVersion": "xxx", "state":"xxx", "chipVersion":"xxx"}]}} |
 
 | **API** | /open/device/query/children/option |
 | --: | :-- |
@@ -35,7 +35,7 @@ AIOT开放API可供第三方应用查询设备基本信息，如设备id、设�
 | **描述** | 查询用户所有设备的信息 |
 | **header** | {"**Appid**":"xxx","**Appkey**":"xxx","Openid":"xxx","**Access-Token**":"xxx"} |
 | **payload** | {"openId":"xxx"} |
-| **response** | {"code":0(errorcode), "result":[{"did":"xxx", "model":"xxx", "name":"xxx", "firmwareVersion": "xxx", "state":"xxx", "chipVersion":"xxx", "longitude":"xxx", "latitude":"xxx"}{"did":"xxx", "model":"xxx", "name":"xxx", "firmwareVersion": "xxx", "state":"xxx", "chipVersion":"xxx", "longitude":"xxx", "latitude":"xxx"}]}} |
+| **response** | {"code":0(errorcode), "result":[{"did":"xxx", "model":"xxx", "name":"xxx", "firmwareVersion": "xxx", "state":"xxx", "chipVersion":"xxx", "longitude":"xxx", "latitude":"xxx"}{"did":"xxx", "model":"xxx", "name":"xxx", "firmwareVersion": "xxx", "state":"xxx", "chipVersion":"xxx"}]}} |
 
 > - did: 设备id
 > - openId: 用户id
