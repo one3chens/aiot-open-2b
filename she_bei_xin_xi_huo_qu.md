@@ -48,9 +48,5 @@ AIOT开放API可供第三方应用查询设备基本信息，如
 > - Appid: 第三方应用appId
 > - Appkey: 第三方应用appKey
 > - Access-Token: 用户token
-> - model: 设备类型
-> - firmwareVersion: 设备固件版本
-> - chipVersion: 设备芯片版本
 > - state: 设备在线/离线状态，0-离线,1-在线
-> - longitude, latitude: 设备所处经纬度
 > - errorcode: 错误码，详见附件
