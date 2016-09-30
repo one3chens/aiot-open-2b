@@ -21,11 +21,6 @@
 | **payload** | {"accountId":"xxx"} |
 | **response** | {"code":0(errorCode), "result":{"openId":"xxx","accessToken":"xxx","expires_in":xxx,"refreshToken":"xxx"} |
 
-
-| API | 描述 | payload | header | response |
-| -- | -- | -- | -- | -- |
-| /open/account/access/get | 用户获取接入权限 | {"accountId":"xxx"} | {"Appid":"xxx","Appkey":"xxx"} | {"code":0(errorCode), "result":{"openId":"xxx","accessToken":"xxx","expires_in":xxx,"refreshToken":"xxx"} |
-
 > - payload: Https请求的payload，默认使用JSON格式
 > - header: Https请求的header
 > - accountId: 第三方应用用户的id
