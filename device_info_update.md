@@ -4,7 +4,7 @@ AIOT开放API可供第三方应用更改设备基本信息，如设备类型、�
 
 | API | 描述 | payload | header | response |
 | -- | -- | -- | -- | -- |
-| /open/device/info/upload | 更新设备信息 | {"openId":"xxx","**did**":"xxx","**data**":{"name": "xxx", "firmwareVersion": "xxx", "model":"xxx", "chipVersion":"xxx", "longitude":"xxx", "latitude":"value","chipVersion"...}} | {"**Appid**":"xxx","**Appkey**":"xxx","Openid":"xxx","**Access-Token**":"xxx"} | {"code":0(errorcode), "result":"msg"}} |
+| /open/device/info/upload | 更新设备信息 | {"openId":"xxx","**did**":"xxx","**data**":{"name": "xxx", "firmwareVersion": "xxx", "model":"xxx", "chipVersion":"xxx", "longitude":"xxx", "latitude":"xxx","chipVersion":"xxx",...}} | {"**Appid**":"xxx","**Appkey**":"xxx","Openid":"xxx","**Access-Token**":"xxx"} | {"code":0(errorcode), "result":"msg"}} |
 
 > 只需要在data中填写要更改的信息的值。
 
