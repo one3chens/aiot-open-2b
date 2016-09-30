@@ -18,6 +18,15 @@
 
 ![](设备解绑-app.png)
 
+| **API** | /open/device/unbind/gateway |
+| --: | -- |
+| **描述** | 网关类设备解绑 |
+| **header** | {"**Appid**":"xxx","**Appkey**":"xxx","Openid":"xxx","**Access-Token**":"xxx"} |
+| **payload** | {"openId":"xxx","**did**":"xxx"} |
+| **response** | {"code":0(errorcode), "result":"msg"}} |
+
+
+
 | API | 描述 | payload | header | response |
 | -- | -- | -- | -- | -- |
 | /open/device/unbind/gateway | 网关类设备解绑 | {"openId":"xxx","**did**":"xxx"} | {"**Appid**":"xxx","**Appkey**":"xxx","Openid":"xxx","**Access-Token**":"xxx"} | {"code":0(errorcode), "result":"msg"}} |
