@@ -3,35 +3,35 @@
 AIOT开放API可供第三方应用查询设备基本信息，如设备id、设备类型、设备名称、固件版本等。
 
 | **API** | /open/device/query |
-| --: | -- |
+| --: | :-- |
 | **描述** | 查询设备信息 |
 | **header** | {"**Appid**":"xxx","**Appkey**":"xxx","Openid":"xxx","**Access-Token**":"xxx"} |
 | **payload** | {"openId":"xxx","**did**":"xxx"} |
 | **response** | {"code":0(errorcode), "result":{"did":"xxx", "model":"xxx", "name":"xxx", "firmwareVersion": "xxx", "state":"xxx", "chipVersion":"xxx", "longitude":"xxx", "latitude":"xxx"}}} |
 
 | **API** | /open/device/query/option |
-| --: | -- |
+| --: | :-- |
 | **描述** | 查询设备特定信息 |
 | **header** | {"**Appid**":"xxx","**Appkey**":"xxx","Openid":"xxx","**Access-Token**":"xxx"} |
 | **payload** | {"openId":"xxx","**did**":"xxx","**option**":["option1","option2",...]} |
 | **response** | {"code":0(errorcode), "result":{"did":"xxx", "option1":"xxx", "option2":"xxx", ...}} |
 
 | **API** | /open/device/query/children |
-| --: | -- |
+| --: | :-- |
 | **描述** | 查询网关下子设备信息 |
 | **header** | {"**Appid**":"xxx","**Appkey**":"xxx","Openid":"xxx","**Access-Token**":"xxx"} |
 | **payload** | {"openId":"xxx","**did**":"xxx"} |
 | **response** | {"code":0(errorcode), "result":[{"did":"xxx", "model":"xxx", "name":"xxx", "firmwareVersion": "xxx", "state":"xxx", "chipVersion":"xxx", "longitude":"xxx", "latitude":"xxx"}]}} |
 
 | **API** | /open/device/query/children/option |
-| --: | -- |
+| --: | :-- |
 | **描述** | 查询网关下子设备特定信息 |
 | **header** | {"**Appid**":"xxx","**Appkey**":"xxx","Openid":"xxx","**Access-Token**":"xxx"} |
 | **payload** | {"openId":"xxx","**did**":"xxx","**option**":["option1","option2",...]} |
 | **response** | {"code":0(errorcode), "result":[{"did":"xxx", "option1":"xxx", "option2":"xxx", ...}]}} |
 
 | **API** | /open/device/query/user |
-| --: | -- |
+| --: | :-- |
 | **描述** | 查询用户所有设备的信息 |
 | **header** | {"**Appid**":"xxx","**Appkey**":"xxx","Openid":"xxx","**Access-Token**":"xxx"} |
 | **payload** | {"openId":"xxx"} |
