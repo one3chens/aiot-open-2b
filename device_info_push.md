@@ -4,7 +4,7 @@
 
 | payload | header | 描述 |
 | -- | -- | --- |
-| {"msgType":"device_info","**did**":"xxx","**data**":{"mac": "value", "name": "name", "firmwareVersion": "value", "state":"value", "model":"value", "chipVersion":"value","longitude":"value", "latitude":"value"}} | {"Appid":"xxx","Appkey":"xxx"} | 设备信息推送 |
+| {"msgType":"device_info","**did**":"xxx","**data**":{"mac": "xxx", "name": "xxx", "firmwareVersion": "xxx", "state":"xxx", "model":"xxx", "chipVersion":"xxx","longitude":"xxx", "latitude":"xxx"}} | {"Appid":"xxx","Appkey":"xxx"} | 设备信息推送 |
 
 > - did: 设备id
 > - msgType: 消息类型
