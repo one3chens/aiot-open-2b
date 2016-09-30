@@ -34,6 +34,13 @@
 
 ##刷新accessToken
 
+| **API** | /open/account/access/refresh |
+| --: | -- |
+| **描述** | 刷新权限 |
+| **header** | {"**Appid**":"xxx","**Appkey**":"xxx"} |
+| **payload** | {"openId":"xxx","refreshToken":"xxx"} |
+| **response** | {"code":0(errorCode), "result":{"openId":"xxx","accessToken":"xxx","expires_in":xxx,"refreshToken":"xxx"} |
+
 | API | 描述 | payload | header | response |
 | -- | -- | -- | -- | -- |
 | /open/account/access/refresh | 刷新权限 | {"openId":"xxx","refreshToken":"xxx"} | {"Appid":"xxx","Appkey":"xxx"} | {"code":0(errorCode), "result":{"openId":"xxx","accessToken":"xxx","expires_in":xxx,"refreshToken":"xxx" |
