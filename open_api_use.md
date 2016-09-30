@@ -14,7 +14,7 @@ AIOT开放接口均使用HTTPS协议，需要在header中添加校验信息，�
 
 - 获取设备信息API：/open/query/device
 - https请求的URL：https://aiot-rpc.aqara.cn/open/query/device
-- header：```{"Appid":"xxx","Appkey":"xxx","Access-Token":"xxx","Openid":"xxx"}```
+- header: ```{"Appid":"xxx","Appkey":"xxx","Access-Token":"xxx","Openid":"xxx"}```
 - payload: ```{"openId":"xxx","did":"xxx"}```
 - response: ```{"code":0(errorcode), "result":{"did":"xxx", "model":"xxx", "name":"xxx", "firmwareVersion": "xxx", "state":"xxx", "chipVersion":"xxx", "longitude":"xxx", "latitude":"xxx", ...}```
 
