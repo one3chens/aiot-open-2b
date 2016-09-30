@@ -47,9 +47,11 @@
 
 需要第三方应用后台提供接收消息的接口，这里定义消息内容格式：
 
-| payload | header | 描述 |
-| -- | -- | -- |
-| {"msgType":"device_unbind","did":"xxx","result":0/1} | {"Appid":"xxx","Appkey":"xxx"} | 解绑消息推送 |
+| msgType | device_unbind |
+| --: | -- |
+| **描述** | 解绑消息推送 |
+| **header** | {"**Appid**":"xxx","**Appkey**":"xxx"} |
+| **payload** | {"**msgType**":"device_unbind","**did**":"xxx","**result**":0/1} |
 
 > - did: 设备id
 > - msgType: 消息类型
