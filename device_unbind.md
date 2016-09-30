@@ -25,6 +25,13 @@
 | **payload** | {"openId":"xxx","**did**":"xxx"} |
 | **response** | {"code":0(errorcode), "result":"msg"}} |
 
+| **API** | /open/device/unbind/subdevice |
+| --: | -- |
+| **描述** | 子设备解绑 |
+| **header** | {"**Appid**":"xxx","**Appkey**":"xxx","Openid":"xxx","**Access-Token**":"xxx"} |
+| **payload** | {"openId":"xxx","**did**":"xxx"} |
+| **response** | {"code":0(errorcode), "result":"msg"}} |
+
 
 
 | API | 描述 | payload | header | response |
