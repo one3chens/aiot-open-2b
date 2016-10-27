@@ -2,7 +2,7 @@
 
 AIOT开放API可供第三方应用查询设备属性。
 
-| API | /open/resource/query |
+| API | /open/res/query |
 | --: | :-- |
 | **描述** | 查询设备有哪些资源 |
 | **header** | {"**Appid**":"xxx","**Appkey**":"xxx","Openid":"xxx","**Access-Token**":"xxx"} |
