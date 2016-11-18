@@ -9,7 +9,7 @@ AIOT开放API可供第三方应用查询设备属性。
 | **payload** | {"openId":"xxx","**did**":"xxx"} |
 | **response** | {"code":0(errorcode), "result":{"did":"xxx","attr":[{"attr1":"xxx","name":"xxx","minValue":"xxx","maxValue":"xxx","enum":[xx,xx,xx]}]}} |
 
-| API | /open/res/query/option |
+| API | /open/res/query/option 
 | --: | :-- |
 | **描述** | 查询设备的某些资源当前值 |
 | **header** | {"**Appid**":"xxx","**Appkey**":"xxx","Openid":"xxx","**Access-Token**":"xxx"} |
