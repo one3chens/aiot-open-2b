@@ -23,6 +23,13 @@ AIOT开放API可供第三方应用查询设备属性。
 | **payload** | {"openId":"xxx","**did**":"xxx","**option**":["attr1","attr2",...]} |
 | **response** | {"code":0(errorcode), "result":[{"did":"xxx","attr":"xxx","value":"xxx","time":xxx},{"did":"xxx","attr":"xxx","value":"xxx","time":xxx},..]} |
 
+| API | /open/res/query/multi/option/extended |
+| --: | :-- |
+| **描述** | 查询多设备当前资源(易扩展版) |
+| **header** | {"**Appid**":"xxx","**Appkey**":"xxx","Openid":"xxx","**Access-Token**":"xxx"} |
+| **payload** | {"openId":"xxx","data":[{"did":"xxx","option":["attr1","attr2",...]},{"did":"xxx","option":["attr1","attr2",...]},..]} |
+| **response** | {"code":0(errorcode), "result":[{"did":"xxx","attr":"xxx","value":"xxx","time":xxx},{"did":"xxx","attr":"xxx","value":"xxx","time":xxx},..]} |
+
 | API | /open/res/query/user |
 | --: | :-- |
 | **描述** | 查询用户下所有设备的资源当前值 |
