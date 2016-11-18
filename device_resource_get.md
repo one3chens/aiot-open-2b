@@ -28,7 +28,7 @@ AIOT开放API可供第三方应用查询设备属性。
 | **描述** | 查询用户下所有设备的资源当前值 |
 | **header** | {"**Appid**":"xxx","**Appkey**":"xxx","Openid":"xxx","**Access-Token**":"xxx"} |
 | **payload** | {"openId":"xxx"} |
-| **response** | {"code":0|errorcode, "result":[{"did":"xxx","attr":"xxx","value":"xxx","time":xxx},{"did":"xxx","attr":"xxx","value":"xxx","time":xxx},..]} |
+| **response** | {"code":0|errorcode, "result":[{"did":"xxx","attr":"xxx","value":"xxx","time":xxx},{"did":"xxx","attr":"xxx","value":"xxx","time":xxx},..]} 
 
 > - openId: 用户id
 > - did: 设备id
