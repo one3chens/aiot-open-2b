@@ -16,6 +16,20 @@ AIOT开放API可供第三方应用查询设备属性。
 | **payload** | {"openId":"xxx","**did**":"xxx","**option**":["attr1","attr2",...]} |
 | **response** | {"code":0(errorcode), "result":{"did":"xxx","data":{"attr1":"xxx","attr2",...}}} |
 
+| API | /open/res/query/option/extended |
+| --: | :-- |
+| **描述** | 查询设备的某些资源当前值(易扩展版) |
+| **header** | {"**Appid**":"xxx","**Appkey**":"xxx","Openid":"xxx","**Access-Token**":"xxx"} |
+| **payload** | {"openId":"xxx","**did**":"xxx","**option**":["attr1","attr2",...]} |
+| **response** | {"code":0|errorcode, "result":[{"did":"xxx","attr":"xxx","value":"xxx","time":xxx},{"did":"xxx","attr":"xxx","value":"xxx","time":xxx},..]} |
+
+| API | /open/res/query/user |
+| --: | :-- |
+| **描述** | 查询用户下所有设备的资源当前值 |
+| **header** | {"**Appid**":"xxx","**Appkey**":"xxx","Openid":"xxx","**Access-Token**":"xxx"} |
+| **payload** | {"openId":"xxx"} |
+| **response** | {"code":0|errorcode, "result":[{"did":"xxx","attr":"xxx","value":"xxx","time":xxx},{"did":"xxx","attr":"xxx","value":"xxx","time":xxx},..]} |
+
 > - openId: 用户id
 > - did: 设备id
 > - attr: 设备的资源（详见资源定义文档）
