@@ -18,3 +18,35 @@ AIOT提供OAuth2.0的授权码模式（authorization code），这是功能最�
 | **请求方法**| Get |
 | **发送的数据结构(JSON)** | client_id(第三方应用的appId);  response_type=code; redirect_uri(重定向url); scope[可选]; state[可选]任意值，认证服务器仍返回这个值 |
 | **返回值数据结构** | http://redirect_uri?code=xxxx&state=xxx  认证服务器回调url,其中code为授权码，有效期为10分钟；state如果客户端的请求中包含这个参数，认证服务器的回应也包含同样的参数 |
+
+二、Access Token URI
+
+| URI | https://aiot-oauth2.aqara.cn/access_token |
+| --: | :-- |
+| **描述** | 申请access_token |
+| **请求方法**| Post (x-www-form-urlencoded) |
+| **发送的数据结构(JSON)** | client_id(第三方应用的 appId); client_secret(第三方应用的 appKey); grant_type=authorization_code; code(授权码); redirect_uri(重定向url); |
+| **返回值数据结构** | {"state":"xxx","expires_in":7200(access_token的有效期，单位为秒),"token_type":"bearer","refresh_token":"xxxxx","access_token":"xxxxx","openId":"xxx"(用户的openId)} |
+
+三、Refresh Token URI
+
+| URI | https://aiot-oauth2.aqara.cn/access_token 或 https://aiot-oauth2.aqara.cn/refresh_token |
+| --: | :-- |
+| **描述** | 刷新access_token |
+| **请求方法**| Post (x-www-form-urlencoded) |
+| **发送的数据结构(JSON)** | client_id(第三方应用的 appId); client_secret(第三方应用的 appKey); grant_type=refresh_token; refresh_token; |
+| **返回值数据结构** | {"state":"xxx","expires_in":7200(access_token的有效期，单位为秒),"token_type":"bearer","refresh_token":"xxxxx","access_token":"xxxxx","openId":"xxx"(用户的openId)} |
+
+四、Privacy Policy URL
+
+| URI | https://aiot-oauth2.aqara.cn/privacy_policy |
+| --: | :-- |
+| **描述** | 隐私政策声明 |
+| **请求方法**| Get |
+
+五、参考
+
+关于OAuth2.0的服务模式，请参考一下资料：
+
+- [理解OAuth 2.0](http://www.ruanyifeng.com/blog/2014/05/oauth_2_0.html)
+
