@@ -7,6 +7,7 @@
    * [开放接口调用规范](open_api_use.md)
 * [账户对接](account_manage.md)
    * [账户对接](account_transf.md)
+   * OAuth2.0 
 * [设备管理](device_manage.md)
    * [设备入网](设备入网.md)
    * [设备解绑](device_unbind.md)
