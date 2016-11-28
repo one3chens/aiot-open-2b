@@ -49,4 +49,3 @@ AIOT提供OAuth2.0的授权码模式（authorization code），这是功能最�
 关于OAuth2.0的服务模式，请参考一下资料：
 
 - [理解OAuth 2.0](http://www.ruanyifeng.com/blog/2014/05/oauth_2_0.html)
-
