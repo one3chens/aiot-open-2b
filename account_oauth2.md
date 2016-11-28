@@ -10,3 +10,11 @@ AIOT提供OAuth2.0的授权码模式（authorization code），这是功能最�
 4. 客户端收到授权码，附上早先的"重定向URI"，向认证服务器申请令牌。这一步是在客户端的后台的服务器上完成的，对用户不可见。
 5. 认证服务器核对了授权码和重定向URI，确认无误后，向客户端发送访问令牌（access token）和更新令牌（refresh token）。
 
+一、Authorization URI
+
+| URI | https://aiot-oauth2.aqara.cn/authorize?client_id=xxx&response_type=code&redirect_uri=xxxx&state=xxx |
+| --: | :-- |
+| **描述** | 用户授权登录界面，获取授权码 |
+| **请求方法**| Get |
+| **发送的数据结构(JSON)** | client_id(第三方应用的appId);  response_type=code; redirect_uri(重定向url); scope[可选]; state[可选]任意值，认证服务器仍返回这个值 |
+| **返回值数据结构** | http://redirect_uri?code=xxxx&state=xxx  认证服务器回调url,其中code为授权码，有效期为10分钟；state如果客户端的请求中包含这个参数，认证服务器的回应也包含同样的参数 |
