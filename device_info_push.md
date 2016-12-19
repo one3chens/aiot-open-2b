@@ -6,7 +6,7 @@
 | --: | :-- |
 | **描述** | 设备信息推送 |
 | **header** | {"**Appid**":"xxx","**Appkey**":"xxx"} |
-| **payload** | {"**msgType**":"device_info","**did**":"xxx","**data**":{"mac": "xxx", "name": "xxx", "firmwareVersion": "xxx", "state":"xxx", "model":"xxx", "chipVersion":"xxx"}} |
+| **payload** | {"**msgType**":"device_info","**data**":[{"**did**":"xxx","mac": "xxx", "name": "xxx", "firmwareVersion": "xxx", "state":"xxx", "model":"xxx", "chipVersion":"xxx"}]} |
 
 > - did: 设备id
 > - msgType: 消息类型
