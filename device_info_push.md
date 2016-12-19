@@ -13,3 +13,17 @@
 > - state: 设备在线/离线状态，0-在线，1-离线
 > - Appid: 第三方应用的appId
 > - Appkey: 第三方应用的appKey
+
+##消息回复格式
+
+回复消息中需包含code字段，用于表示是否接收成功。
+
+| code | 错误码 |
+| --: | :-- |
+| **0** | SUCCESS (成功) |
+| **100** | ERROR_TIMEOUT (超时) |
+| **301** | ERROR_REQUEST_PATH (请求路径错误) |
+| **302** | ERROR_REQUEST_PARAMS (请求参数错误) |
+| **801** | ERROR_APPID_OR_APPKEY_ILLEGAL (appId或appKey有误) |
+| **500** | ERROR_INTERNAL_SERVER (服务器出错) |
+
