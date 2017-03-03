@@ -51,6 +51,10 @@
 
 **model:lumi.ctrl\_hvac.v1, lumi.ctrl\_hvac.aq1, lumi.ctrl\_hvac.es1**
 
+| 功能模块 | 资源 | 值类型 | 枚举值 | 最大值 | 最小值 | 描述 |
+| :--- | :--- | :--- | :--- | :--- | :--- | :--- |
+| hvac | ac\_statuc | uint32\_t | ---  | --- | --- | 根据uint32\_t的值决定是开关、风速、模式等 |
+
 ## 86暗插
 
 **model:lumi.86plug.v1**
