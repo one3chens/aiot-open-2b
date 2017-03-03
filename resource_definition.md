@@ -47,6 +47,14 @@
 | acpartner | ac\_status | uint32\_t | 0,1,2,3,... | -- | -- | 空调伴侣，根据uint32\_t的值决定是开关、风速、模式等等 |
 | acpartner | ac\_load\_power | uint32\_t | -- | -- | -- | 空调伴侣负载功率，单位是瓦 W |
 
+## 中央空调控制器
+
+**model:lumi.ctrl\_hvac.v1, lumi.ctrl\_hvac.aq1, lumi.ctrl\_hvac.es1**
+
+| 功能模块 | 资源 | 值类型 | 枚举值 | 最大值 | 最小值 | 描述 |
+| :--- | :--- | :--- | :--- | :--- | :--- | :--- |
+| hvac | ac\_statuc | uint32\_t | ---  | --- | --- | 根据uint32\_t的值决定是开关、风速、模式等 |
+
 ## 86暗插
 
 **model:lumi.86plug.v1**
