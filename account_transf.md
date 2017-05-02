@@ -44,7 +44,5 @@ Cloud-2-Cloud开放方案中用户的账户信息是属于第三方的，AIOT主
 
 当accessToken过期时，利用refreshToken和这个API，可以重新获取一对新的accessToken和refreshToken。
 
-
-
 说明：此账户对接方式尚未开放，推荐使用OAuth2.0的方式
 
