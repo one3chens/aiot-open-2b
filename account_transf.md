@@ -1,4 +1,4 @@
-# 账户对接 \(暂未开放\)
+# 账户对接 \(暂未开放
 
 Cloud-2-Cloud开放方案中用户的账户信息是属于第三方的，AIOT主要提供设备管理相关能力，但AIOT需要为这些智能设备绑定到指定的用户上，并为该用户授予权限，允许该用户可以查看设备状态和控制设备等。那么就需要AIOT为第三方用户创建一个虚拟账户，要实现这样的账户对接，我们需要第三方应用在有新用户注册的时候，立即向AIOT发送请求，来获取该用户使用AIOT的权限（accessToken），参照OAuth2.0协议，AIOT会为该账户创建一个accessToken和refreshToken，accessToken作为该用户的授权，但它的有效期比较短，一般为1天时间；如果过期了，可以利用refreshToken来刷新，重新获得accessToken和refreshToken，而refreshToken的有效期一般为一个月。
 
